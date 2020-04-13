@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Mechanoids Drop Guns! (Continued)</name>
+  	<packageId>Mlie.MechanoidsDropGuns</packageId>
+	<author>HammerheadCow</author>
+	<url>https://github.com/emipa606/MechanoidsDropGuns</url>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies />
+	<loadAfter />
+	<description>Update of HammerheadCows mod for RimWorld 1.1
+https://steamcommunity.com/sharedfiles/filedetails/?id=941995644
+
+[img]https://i.imgur.com/GYswkZ7.png[/img]
+
+Support-chat:
+https://invite.gg/mlie
+
+Non-steam version:
+https://github.com/emipa606/MechanoidsDropGuns
+	
+--- Original Description ---
+Do you want the weapons of the mechanoids that try to kill you? Well then this is the mod for you! This mod makes it so that when mechanoids die, they drop their armed weapon.
+
+This mod can be enabled and disabled in any save safely, so you can add it to saved games.
+
+Fixed: .50 cent bug, guns should be worth more now</description>
+</ModMetaData>
