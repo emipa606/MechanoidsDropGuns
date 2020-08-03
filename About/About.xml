@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Mechanoids Drop Guns! (Continued)</name>
-  	<packageId>Mlie.MechanoidsDropGuns</packageId>
-	<author>HammerheadCow</author>
-	<url>https://github.com/emipa606/MechanoidsDropGuns</url>
-	<supportedVersions>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of HammerheadCows mod for RimWorld 1.1
+  <packageId>Mlie.MechanoidsDropGuns</packageId>
+  <author>HammerheadCow</author>
+  <url>https://github.com/emipa606/MechanoidsDropGuns</url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of HammerheadCows mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=941995644
 
 [img]https://i.imgur.com/GYswkZ7.png[/img]
