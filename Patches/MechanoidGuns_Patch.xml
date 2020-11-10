@@ -15,4 +15,10 @@
       <tradeability>Sellable</tradeability>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or @Name="Gun_ChargeBlasterHeavyBase" or @Name="Gun_InfernoCannonBase"]/menuHidden</xpath>
+    <value>
+      <menuHidden>False</menuHidden>
+    </value>
+  </Operation>
 </Patch>
