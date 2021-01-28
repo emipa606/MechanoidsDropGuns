@@ -2,6 +2,7 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <xpath>/Defs/PawnKindDef[@Name="VFE_MechanoidKind"]</xpath>
+    <success>Always</success>
     <match Class="PatchOperationSequence">
       <operations>
         <li Class="PatchOperationReplace">
