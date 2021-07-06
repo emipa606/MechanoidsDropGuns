@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[@Name="VFE_MechanoidKind"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/PawnKindDef[@Name="VFE_MechanoidKind" or @Name="VFE_AdvancedMechanoidKind"]/destroyGearOnDrop</xpath>
+          <value>
+            <destroyGearOnDrop>false</destroyGearOnDrop>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="VFE_Gun_AdvancedNeedle" or defName="VFE_Gun_AdvancedChargeLance" or @Name="VFE_Gun_ChargeBlasterLightBase"]/destroyOnDrop</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="VFE_Gun_AdvancedNeedle" or defName="VFE_Gun_AdvancedChargeLance" or @Name="VFE_Gun_ChargeBlasterLightBase"]/tradeability</xpath>
+          <value>
+            <tradeability>Sellable</tradeability>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="VFE_Gun_AdvancedNeedle" or defName="VFE_Gun_AdvancedChargeLance" or @Name="VFE_Gun_ChargeBlasterLightBase"]/menuHidden</xpath>
+          <value>
+            <menuHidden>False</menuHidden>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

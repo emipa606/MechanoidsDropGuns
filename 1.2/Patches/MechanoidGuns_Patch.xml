@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[@Name="BaseMechanoidKind"]/destroyGearOnDrop</xpath>
+    <value>
+      <destroyGearOnDrop>false</destroyGearOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or @Name="Gun_ChargeBlasterHeavyBase"]/destroyOnDrop</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or @Name="Gun_ChargeBlasterHeavyBase" or @Name="Gun_InfernoCannonBase"]/tradeability</xpath>
+    <value>
+      <tradeability>Sellable</tradeability>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or @Name="Gun_ChargeBlasterHeavyBase" or @Name="Gun_InfernoCannonBase"]/menuHidden</xpath>
+    <value>
+      <menuHidden>False</menuHidden>
+    </value>
+  </Operation>
+</Patch>
