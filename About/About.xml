@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Mechanoids Drop Guns! (Continued)</name>
   <packageId>Mlie.MechanoidsDropGuns</packageId>
@@ -11,13 +11,13 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of HammerheadCows mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=941995644
 
 - Added support for [url=https://steamcommunity.com/workshop/filedetails/?id=2329011599]Vanilla Factions Expanded - Mechanoids[/url]
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
@@ -26,7 +26,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=941995644
 	[/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Do you want the weapons of the mechanoids that try to kill you? Well then this is the mod for you! This mod makes it so that when mechanoids die, they drop their armed weapon.
 
@@ -35,7 +35,7 @@ This mod can be enabled and disabled in any save safely, so you can add it to sa
 Fixed: .50 cent bug, guns should be worth more now
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -44,6 +44,5 @@ Fixed: .50 cent bug, guns should be worth more now
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
