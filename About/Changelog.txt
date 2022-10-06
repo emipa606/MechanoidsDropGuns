@@ -1,5 +1,8 @@
 # Changelog for MechanoidsDropGuns
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.3.1 - Added termite to the patch and material to the mech-weapons to make them comparable to other weapons when smelting or deconstructing
 
 
