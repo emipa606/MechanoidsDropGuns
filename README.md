@@ -34,3 +34,4 @@ Fixed: .50 cent bug, guns should be worth more now
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2059921296]Last updated 2023-06-14

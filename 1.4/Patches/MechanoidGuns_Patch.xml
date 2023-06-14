@@ -7,10 +7,10 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationRemove">
-    <xpath>/Defs/ThingDef[defName="Gun_Needle" or defName="Gun_InfernoCannon" or defName="Gun_ThumpCannon" or @Name="Gun_ChargeBlasterHeavyBase"]/destroyOnDrop</xpath>
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or defName="Gun_InfernoCannon" or defName="Gun_ThumpCannon" or defName="Gun_BeamGraser" or defName="Gun_ToxicNeedle" or @Name="Gun_ChargeBlasterHeavyBase" or @Name="NeedleGunBase" or @Name="LightMechanoidGun"]/destroyOnDrop</xpath>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Gun_Needle" or defName="Gun_ThumpCannon" or @Name="Gun_ChargeBlasterHeavyBase"]/tradeability</xpath>
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or defName="Gun_ThumpCannon" or defName="Gun_BeamGraser" or defName="Gun_ToxicNeedle" or @Name="Gun_ChargeBlasterHeavyBase" or @Name="NeedleGunBase" or @Name="LightMechanoidGun"]/tradeability</xpath>
     <value>
       <tradeability>Sellable</tradeability>
     </value>
@@ -22,7 +22,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName="Gun_Needle" or defName="Gun_InfernoCannon" or defName="Gun_ThumpCannon" or @Name="Gun_ChargeBlasterHeavyBase"]</xpath>
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or defName="Gun_ThumpCannon" or defName="Gun_BeamGraser" or defName="Gun_ToxicNeedle" or @Name="Gun_ChargeBlasterHeavyBase" or @Name="NeedleGunBase" or @Name="LightMechanoidGun" or @Name="Gun_InfernoCannonBase"]</xpath>
     <value>
       <costList>
         <Plasteel>60</Plasteel>
