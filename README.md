@@ -6,6 +6,7 @@ Update of HammerheadCows mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=941995644
 
 - Added support for https://steamcommunity.com/workshop/filedetails/?id=2329011599]Vanilla Factions Expanded - Mechanoids
+- Added support for Biotech mechs
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -33,5 +34,5 @@ Fixed: .50 cent bug, guns should be worth more now
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2059921296]![Image](https://img.shields.io/github/v/release/emipa606/MechanoidsDropGuns?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2059921296]Last updated 2023-06-14

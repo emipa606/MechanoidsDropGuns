@@ -1,5 +1,8 @@
 # Changelog for MechanoidsDropGuns
 
+1.4.3 - Fixed Diabolus not droppping their weapon
+
+
 1.4.2 - Should now work on all Biotech mechs as well
 
 
