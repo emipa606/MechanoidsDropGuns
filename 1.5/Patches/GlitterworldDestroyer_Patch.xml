@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName="Mech_BlackScyther"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/PawnKindDef[defName="Mech_BlackScyther" or defName="Mech_BlackLancer" or defName="Mech_BlackTesseron" or defName="Mech_BlackLegionary" or defName="Mech_BlackMilitor"]/destroyGearOnDrop</xpath>
+          <value>
+            <destroyGearOnDrop>false</destroyGearOnDrop>
+          </value>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="Gun_HighChargeLance" or defName="Gun_Minigun_Mech" or defName="Gun_MiniChargeGun" or defName="Gun_MarinePsyLance" or defName="Gun_MarineChargeLance" or defName="Gun_NeedleLauncher_Defence" or @Name="Gun_CataphractCentipede_SRBase" or defName="HeavyPlasmaSword"]/destroyOnDrop</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Gun_HighChargeLance" or defName="Gun_Minigun_Mech" or defName="Gun_MiniChargeGun" or defName="Gun_MarinePsyLance" or defName="Gun_MarineChargeLance" or defName="Gun_NeedleLauncher_Defence" or @Name="Gun_CataphractCentipede_SRBase" or defName="HeavyPlasmaSword"]/tradeability</xpath>
+          <value>
+            <tradeability>Sellable</tradeability>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Gun_HighChargeLance" or defName="Gun_Minigun_Mech" or defName="Gun_MiniChargeGun" or defName="Gun_MarinePsyLance" or defName="Gun_NeedleLauncher_Defence" or @Name="Gun_CataphractCentipede_SRBase" or defName="HeavyPlasmaSword"]</xpath>
+          <value>
+            <costList>
+              <Plasteel>60</Plasteel>
+              <Steel>20</Steel>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

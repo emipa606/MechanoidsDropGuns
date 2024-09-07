@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="AM_Gun_GoliathChargeBlaster"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[@Name="AM_FlamethrowerBase" or @Name="AM_CryogenicGunBase"  or @Name="AM_DemolisherChargeBase" or defName="AM_Gun_GoliathChargeBlaster" or defName="AM_Gun_GoliathNeedle"]/destroyOnDrop</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[@Name="AM_FlamethrowerBase" or @Name="AM_CryogenicGunBase"  or @Name="AM_DemolisherChargeBase" or defName="AM_Gun_GoliathChargeBlaster" or defName="AM_Gun_GoliathNeedle"]/tradeability</xpath>
+          <value>
+            <tradeability>Sellable</tradeability>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="AM_FlamethrowerBase" or @Name="AM_CryogenicGunBase"  or @Name="AM_DemolisherChargeBase" or defName="AM_Gun_GoliathChargeBlaster" or defName="AM_Gun_GoliathNeedle"]</xpath>
+          <value>
+            <costList>
+              <Plasteel>60</Plasteel>
+              <Steel>20</Steel>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

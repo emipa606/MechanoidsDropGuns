@@ -1,5 +1,8 @@
 # Changelog for MechanoidsDropGuns
 
+1.5.1 - Addeds support for [url=https://steamcommunity.com/workshop/filedetails/?id=3245158368]Glitterworld Destroyer 4 - Mechanoid Addon[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2973169158]Alpha Mechs[/url]
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 
