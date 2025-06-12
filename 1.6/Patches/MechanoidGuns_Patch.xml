@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[@Name="BaseMechanoidKind"]/destroyGearOnDrop</xpath>
+    <value>
+      <destroyGearOnDrop>false</destroyGearOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or defName="Gun_InfernoCannon" or defName="Gun_ThumpCannon" or defName="Gun_BeamGraser" or defName="Gun_ToxicNeedle" or defName="Gun_HellsphereCannon" or @Name="Gun_ChargeBlasterHeavyBase" or @Name="NeedleGunBase" or @Name="LightMechanoidGun"]/destroyOnDrop</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or defName="Gun_ThumpCannon" or defName="Gun_BeamGraser" or defName="Gun_ToxicNeedle" or defName="Gun_HellsphereCannon" or @Name="Gun_ChargeBlasterHeavyBase" or @Name="NeedleGunBase" or @Name="LightMechanoidGun"]/tradeability</xpath>
+    <value>
+      <tradeability>Sellable</tradeability>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Gun_InfernoCannon"]</xpath>
+    <value>
+      <tradeability>Sellable</tradeability>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Gun_Needle" or defName="Gun_ThumpCannon" or defName="Gun_BeamGraser" or defName="Gun_ToxicNeedle" or defName="Gun_HellsphereCannon" or @Name="Gun_ChargeBlasterHeavyBase" or @Name="NeedleGunBase" or @Name="LightMechanoidGun" or @Name="Gun_InfernoCannonBase"]</xpath>
+    <value>
+      <costList>
+        <Plasteel>60</Plasteel>
+        <Steel>20</Steel>
+        <ComponentSpacer>2</ComponentSpacer>
+      </costList>
+    </value>
+  </Operation>
+</Patch>
